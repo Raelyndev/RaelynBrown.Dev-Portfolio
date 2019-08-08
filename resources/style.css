@@ -78,6 +78,7 @@ footer {
 h6 {
      text-transform: uppercase;
      text-align: center;
+     color: #70535d;
 }
 
 footer ul {
@@ -98,4 +99,3 @@ footer a {
      text-decoration: none;
      font-size: 20px;
 }
-
