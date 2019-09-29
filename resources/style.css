@@ -1,15 +1,17 @@
-/* NAVBAR */
+/* NAVBAR-NAVBAR-NAVBAR-NAVBAR-NAVBAR */
 
 body {
 	margin: 0;
 	background: #f2f2f2;
 	font-family: sans-serif, Arial, Helvetica, sans-serif;
-	font-weight: 300;
+  font-weight: 300;
+
 }
 
 .container-nav {
 	width: 80%;
-	margin: 0 auto;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 header {
@@ -102,32 +104,35 @@ footer a {
      font-size: 20px;
 }
 
-/*HOMEPAGE*/
+/* HOMEPAGE-HOMEPAGE-HOMEPAGE-HOMEPAGE */
 
 .flex-container {
   display: flex;
-  flex-display: nowrap;
+  flex-direction: nowrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   width:max;
-  margin: 30px;
+  margin: 0;
   align-items: center;
+
 }
 
 .container {
   display:flex;
-  Background-color: #99ccff;
-  width: 355px;
-  height: 510px;
+  Background-color: #759FBC;
+  width: 370px;
+  height: 540px;
   border-radius: 30px;
   padding: 20px;
-  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+  box-shadow:-40px 30px 10px #c6c6c6; /* x, y |blur|color */
   margin: 10px;
+  overflow: auto;
 }
 
 h3 {
   line-height: 70px;
   font-size: 60px;
-  margin: 15px;
+  margin: 10px;
   color: #f2f2f2;
   text-shadow: -10px 15px 20px #7095ba;
 }
@@ -136,25 +141,27 @@ h3 {
   border-radius: 50%;
   width: 450px;
   height: 450px;
-  box-shadow:-10px 15px 15px #c6c6c6;
+  box-shadow:-40px 30px 10px #c6c6c6;
+  overflow: auto;
 }
 
 hr {
   width: 600px;
   height: 4px;
   border-radius: 20px;
-  background-color: #6282A3 ;
+  background-color: #759FBC;
 }
 
 #skills {
   line-height: 50px;
-  font-size: 30px;
-  Background-color: #99ccff;
+  font-size: 50px;
+  Background-color: #759FBC;
   width: 349px;
   height: 415px;
   border-radius: 30px;
   padding: 20px;
-  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+  box-shadow:-40px 30px 10px #c6c6c6; /* x, y |blur|color */
+  overflow: auto;
   
 }
 
@@ -178,40 +185,44 @@ ul {
   flex-flow: row wrap;
   padding: 10px;
   color: #f2f2f2;
+  overflow: auto;
 }
 
 #item {
-  background-color: #6282A3;
+  background-color: #4D88A8;
   border-radius: 20px;
-  font-size: 30px;
+  font-size: 25px;
   display: inline;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   align-items: center;
+  box-shadow: -10px 8px 10px #467c99;
 }
 
 
 #about-me {
   line-height: 50px;
   font-size: 30px;
-  Background-color: #99ccff;
+  Background-color: #759FBC;
   width: 349px;
   height: 415px;
   border-radius: 30px;
   padding: 20px;
-  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+  box-shadow:-40px 30px 10px #c6c6c6; /* x, y |blur|color */
+  overflow: auto;
 }
 
 .container-button {
-  background-color: #6282A3;
+  background-color: #4D88A8;
   border-radius: 20px;
   padding: 10px;
   color: #f2f2f2;
+  box-shadow: -10px 8px 10px #467c99
 }
 
 h6 {
   color: #f2f2f2;
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px;
   text-align: center;
 }
