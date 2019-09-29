@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	background: #f2f2f2;
-	font-family: sans-serif, Arial, Helvetica, sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   font-weight: 300;
 
 }
@@ -111,7 +111,7 @@ footer a {
   flex-direction: nowrap;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  width:max;
+  width: max;
   margin: 0;
   align-items: center;
 
@@ -131,7 +131,7 @@ footer a {
 
 h3 {
   line-height: 70px;
-  font-size: 60px;
+  font-size: 50px;
   margin: 10px;
   color: #f2f2f2;
   text-shadow: -10px 15px 20px #7095ba;
@@ -154,7 +154,7 @@ hr {
 
 #skills {
   line-height: 50px;
-  font-size: 50px;
+  font-size: 40px;
   Background-color: #759FBC;
   width: 349px;
   height: 415px;
@@ -168,9 +168,11 @@ hr {
 h4 {
   text-align: center;
   line-height: 50px;
-  margin: 20px;
+  margin: 15px;
   color: #f2f2f2;
   margin-bottom:60px;
+  font-size: 25px;
+
 }
 
 
@@ -191,7 +193,7 @@ ul {
 #item {
   background-color: #4D88A8;
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 20px;
   display: inline;
   padding: 5px;
   margin: 10px;
@@ -202,7 +204,7 @@ ul {
 
 #about-me {
   line-height: 50px;
-  font-size: 30px;
+  font-size: 20px;
   Background-color: #759FBC;
   width: 349px;
   height: 415px;
@@ -222,7 +224,15 @@ ul {
 
 h6 {
   color: #f2f2f2;
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px;
   text-align: center;
+}
+
+h6 a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+h6 a:hover {
+  color: #000;
 }
