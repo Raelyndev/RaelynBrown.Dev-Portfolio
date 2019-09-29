@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 body {
 	margin: 0;
 	background: #f2f2f2;
@@ -5,7 +7,7 @@ body {
 	font-weight: 300;
 }
 
-.container {
+.container-nav {
 	width: 80%;
 	margin: 0 auto;
 }
@@ -75,7 +77,7 @@ footer {
      text-align: center;
 }
 
-h6 {
+h5 {
      text-transform: uppercase;
      text-align: center;
      color: #70535d;
@@ -100,9 +102,116 @@ footer a {
      font-size: 20px;
 }
 
-#profile {
-  max-height: 250px;
-  max-width: 250px;
-  border-radius: 50%;
+/*HOMEPAGE*/
 
+.flex-container {
+  display: flex;
+  flex-display: nowrap;
+  justify-content: space-evenly;
+  width:max;
+  margin: 30px;
+  align-items: center;
+}
+
+.container {
+  display:flex;
+  Background-color: #99ccff;
+  width: 355px;
+  height: 510px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+  margin: 10px;
+}
+
+h3 {
+  line-height: 70px;
+  font-size: 60px;
+  margin: 15px;
+  color: #f2f2f2;
+  text-shadow: -10px 15px 20px #7095ba;
+}
+
+#profile-img {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  box-shadow:-10px 15px 15px #c6c6c6;
+}
+
+hr {
+  width: 600px;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #6282A3 ;
+}
+
+#skills {
+  line-height: 50px;
+  font-size: 30px;
+  Background-color: #99ccff;
+  width: 349px;
+  height: 415px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+  
+}
+
+h4 {
+  text-align: center;
+  line-height: 50px;
+  margin: 20px;
+  color: #f2f2f2;
+  margin-bottom:60px;
+}
+
+
+ul {
+  list-style: none;
+  
+}
+
+.container-1 {
+  justify-content: space-around;
+  display:flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  color: #f2f2f2;
+}
+
+#item {
+  background-color: #6282A3;
+  border-radius: 20px;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+
+#about-me {
+  line-height: 50px;
+  font-size: 30px;
+  Background-color: #99ccff;
+  width: 349px;
+  height: 415px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow:-10px 15px 15px #c6c6c6; /* x, y |blur|color */
+}
+
+.container-button {
+  background-color: #6282A3;
+  border-radius: 20px;
+  padding: 10px;
+  color: #f2f2f2;
+}
+
+h6 {
+  color: #f2f2f2;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
 }
