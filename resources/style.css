@@ -236,3 +236,53 @@ h6 a {
 h6 a:hover {
   color: #000;
 }
+
+/* PROFILE-PROFILE-PROFILE-PROFILE */
+
+.container-thumbnail {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 0;
+align-items: center;
+
+}
+
+h2 {
+  color: #60839a;
+  text-align: center;
+}
+
+.portfolio-img {
+  width: 1000px;
+  height: 200px;
+  margin: 0;
+  padding: 20px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  padding: 10px;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-thumbnail:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: ;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
