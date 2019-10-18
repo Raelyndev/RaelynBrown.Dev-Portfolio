@@ -222,6 +222,16 @@ ul {
   box-shadow: -10px 8px 10px #467c99
 }
 
+.conatiner-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-button a:hover {
+color: #c7c7c7;
+text-decoration: none;
+}
+
 h6 {
   color: #f2f2f2;
   font-size: 20px;
@@ -288,4 +298,64 @@ p {
 }
 
 
+/* CONTACT PAGE  CONTACT PAGE CONTACT PAGE CONTACT PAGE */
 
+#form-img {
+width: 400px;
+margin: -25px;;
+}
+
+hr#verticle {
+  width: 5px;
+  height: 450px;
+  background: #4D88A8; 
+  border: none;
+  margin: 0;
+  
+}
+
+/* FORM FORM FORM FORM FORM FORM FORM FORM */
+
+h1 {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  width: 150px;
+}
+
+input[type=text], textarea {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  box-sizing: border-box;
+  resize: vertical;
+  box-shadow: -3px 5px 10px #eaeaea;
+}
+
+input[type=submit] {
+  background-color: #4D88A8;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input [type=text],textarea {
+  height: 150px;
+}
+
+input[type=submit]:hover {
+  background-color: #40708a;
+}
+
+label {
+  padding: 5px;
+}
