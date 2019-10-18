@@ -1,4 +1,4 @@
-
+i
 <!DOCTYPE HTML>
 <html lang = "en">
 <head>
@@ -15,7 +15,7 @@ src="https://kit.fontawesome.com/43fd318129.js"
 <body>
 
   <header>
-    <div class = "container"> 
+    <div class = "container-nav"> 
 
       <a href = "index.html"><img src = "images/new-raelyn-logo.png" alt = "logo" class = "logo" height = "75" width = "175"></a>
       <nav>
@@ -30,18 +30,35 @@ src="https://kit.fontawesome.com/43fd318129.js"
 
     </nav>
     </div>
-    </header>
+  </header>
+    <div class = "flex-container" >
+      <div class = "container-form-img">
+    <img src = "images/form_image.png" id = "form-img">
+  </div>
 
-    <div>
-    <img src = "images/placeholder.jpeg">
+<hr id = "verticle">
 
-<hr style="width: 1px; height: 100px; background: black; border: none;" />
+        <div class = "form" class = "container"> <!--contact form-->
+<h1>Fill out the contact form below for job inquires or if you’re interested in being internet besties!</h1>
+<br>
+<form>
+    <label for = "fname"> </label>
+    <input type = "text" id = "fname" name = "firstname" placeholder = "Your Name"> 
+    
+    <label for = "lname"></label>
+    <input type = "text" id = "email" name = "email" placeholder = "Email">
+
+    <label for = "subject"></label>
+    <input type = "text" id = " subject" name = "subject" placeholder = "Subject">
+
+    <label for="message"></label>
+    <textarea id="subject" name="message" placeholder="Type Message Here"></textarea>
+
+    <input type="submit" value="Submit">
+    
+</form>
     </div>
-
-        <div class = "form"> <!--contact form-->
-<p>Fill out the contact form below for job inquires or if you’re interested in being internet besties</p>
-    </div>
-
+  </div>
 </body>
  
 <footer>
