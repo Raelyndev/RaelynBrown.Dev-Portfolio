@@ -78,41 +78,173 @@
 }
 /* Original CSS code should be injected here */
 
-/* Additional styles for semantic HTML structure */
-.nav-list {
-  display: flex;
-  align-items: center;
+.navigation ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  display: flex;
+  align-items: center;
   height: 100%;
 }
 
-.nav-item {
-  display: flex;
-  align-items: center;
-}
-
-.navigation h1 {
+.navigation li {
   margin: 0;
   padding: 0;
 }
 
-/* Focus styles for accessibility */
-.navigation a:focus {
-  outline: 2px solid #4a90e2;
-  outline-offset: 2px;
-  border-radius: 2px;
-}
-
-.navigation a:hover {
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-/* Ensure proper text rendering */
 .navigation a {
-  display: block;
   text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 4px 8px;
+  transition: color 0.2s ease;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--black);
+  outline: 2px solid var(--brown);
+  outline-offset: 2px;
+}
+
+.navigation a:active {
+  color: var(--black);
+}
+
+.navigation .logo h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 1280px;
+  height: 501px;
+  background-color: var(--variable-collection-sage-green);
+}
+
+.header .intro {
+  position: absolute;
+  width: 480px;
+  height: 498px;
+  top: 3px;
+  left: 800px;
+}
+
+.header .text-wrapper {
+  position: absolute;
+  width: 266px;
+  height: 34px;
+  top: 92px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 700;
+  color: var(--brown);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.header .intro-p {
+  position: absolute;
+  width: 418px;
+  height: 182px;
+  top: 139px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.header .div {
+  position: absolute;
+  width: 408px;
+  height: 94px;
+  top: 335px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.header .vector {
+  position: absolute;
+  width: 800px;
+  height: 389px;
+  top: 56px;
+  left: 0;
+}
+/* Original CSS code should be injected here */
+
+.header {
+  position: relative;
+  width: 1280px;
+  height: 501px;
+  background-color: var(--variable-collection-sage-green);
+}
+
+.header .intro {
+  position: absolute;
+  width: 480px;
+  height: 498px;
+  top: 3px;
+  left: 800px;
+}
+
+.header .text-wrapper {
+  position: absolute;
+  width: 266px;
+  height: 34px;
+  top: 92px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 700;
+  color: var(--brown);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.header .intro-p {
+  position: absolute;
+  width: 418px;
+  height: 182px;
+  top: 139px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.header .div {
+  position: absolute;
+  width: 408px;
+  height: 94px;
+  top: 335px;
+  left: 0;
+  font-family: "Libre Baskerville", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.header .vector {
+  position: absolute;
+  width: 800px;
+  height: 389px;
+  top: 56px;
+  left: 0;
 }
