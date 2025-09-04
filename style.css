@@ -248,3 +248,247 @@
   top: 56px;
   left: 0;
 }
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  height: 979px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 180px 140px;
+  position: relative;
+  background-color: var(--pale-orange);
+}
+
+.skills-section .skills {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 125px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -140.50px;
+}
+
+.skills-section .skill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.skills-section .skill:hover {
+  transform: translate(0, -5px);
+}
+
+.skills-section .div {
+  gap: 56px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.skills-section .image-placeholder {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-image: url(./img/image-placeholder.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.skills-section .img {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 0;
+  left: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.skills-section .headline-subhead {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.skills-section .html-css {
+  position: relative;
+  width: 249.9px;
+  margin-top: -1.00px;
+  font-family: var(--h3-font-family);
+  font-weight: var(--h3-font-weight);
+  color: var(--black);
+  font-size: var(--h3-font-size);
+  text-align: center;
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  font-style: var(--h3-font-style);
+}
+
+.skills-section .text-wrapper {
+  position: relative;
+  width: 249.9px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: var(--black);
+  font-size: var(--body-text-font-size);
+  text-align: center;
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.skills-section .skill-wrapper {
+  gap: 54px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.skills-section .skill-wrapper:hover {
+  transform: translate(0, -5px);
+}
+
+.skills-section .images-wrapper {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-image: url(./img/image-placeholder-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.skills-section .element-wrapper {
+  position: relative;
+  width: 130px;
+  height: 130px;
+}
+
+.skills-section .element {
+  position: absolute;
+  width: 117px;
+  height: 110px;
+  top: 20px;
+  left: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.skills-section .skills-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 125px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -140.50px;
+}
+
+.skills-section .image-placeholder-2 {
+  background-image: url(./img/65381-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+}
+
+.skills-section .image-placeholder-3 {
+  background-image: url(./img/download-1-1-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+}
+
+.skills-section .download-wrapper {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* Original CSS code should be injected here */
+
+/* Additional CSS for accessibility improvements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus styles for better keyboard navigation */
+.skill:focus-within,
+.skill-wrapper:focus-within {
+  outline: 2px solid #4a90e2;
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+/* Improved hover states for accessibility */
+.skill:hover,
+.skill:focus-within,
+.skill-wrapper:hover,
+.skill-wrapper:focus-within {
+  transform: translate(0, -5px);
+}
+
+/* Ensure images are properly sized and accessible */
+.skills-section .img {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 60px 20px;
+    height: auto;
+  }
+
+  .skills-section .skills,
+  .skills-section .skills-2 {
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .skills-section .skills {
+    margin-top: 0;
+  }
+
+  .skills-section .skills-2 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-section .html-css,
+  .skills-section .text-wrapper {
+    width: 280px;
+  }
+}
